@@ -56,6 +56,23 @@ npm run console
 
 This command is already wired to `./src/main.ts`.
 
+## How do I run the cinema seating CLI prototype?
+
+Run the command below:
+
+```bash
+npm run cinema
+```
+
+The CLI simulates an 8x10 theater and lets staff:
+
+- view the full seating map,
+- reserve specific seats,
+- check whether a seat is occupied,
+- find the first pair of adjacent available seats,
+- reserve that adjacent pair automatically,
+- and see the count of available seats.
+
 ## Where do I write my code?
 
 It depends on the language:
